@@ -10,3 +10,6 @@ h1{
     text-align: center;
     color:blue;
 }
+#display{
+    font-weight: bolder;
+}

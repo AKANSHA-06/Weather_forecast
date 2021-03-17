@@ -5,7 +5,6 @@ async function getWeather(){
     var url="https://api.openweathermap.org/data/2.5/forecast?q=";
     var key="2e35bbb2a9c56a192f8d298624303818";
     url=url.concat(city).concat('&appid=').concat(key).concat('&units=metric');
-    console.log(url)
     let result=await fetch(url);
     let ob=await result.json();
     var a=document.getElementById("display");
